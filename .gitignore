@@ -1,0 +1,10 @@
+# Secrets and local environment files: never commit.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# OS noise
+.DS_Store
